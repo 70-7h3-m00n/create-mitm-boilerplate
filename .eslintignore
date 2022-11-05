@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# prettier
+.prettierignore
+.prettierrc
+
+#commitlint
+commitlint.config.js
