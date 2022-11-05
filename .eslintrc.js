@@ -8,7 +8,8 @@ module.exports = {
     'next/core-web-vitals',
     'plugin:@typescript-eslint/recommended',
     'airbnb',
-    'prettier'
+    'prettier',
+    'plugin:storybook/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -18,7 +19,12 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
-    'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
+    'react/jsx-filename-extension': [
+      'warn',
+      {
+        extensions: ['.tsx']
+      }
+    ],
     'react/react-in-jsx-scope': 0,
     'react/jsx-uses-react': 0,
     quotes: ['error', 'single']
@@ -31,6 +37,20 @@ module.exports = {
       files: ['./app/**/layout.tsx'],
       rules: {
         '@next/next/no-head-element': 0
+      }
+    },
+    {
+      files: ['./**/*.stories.tsx'],
+      rules: {
+        'import/no-extraneous-dependencies': 0,
+        'react/function-component-definition': 0
+      }
+    },
+    {
+      files: ['./**/*.tsx'],
+      rules: {
+        'react/jsx-props-no-spreading': 0,
+        'import/extensions': 0
       }
     }
   ]
