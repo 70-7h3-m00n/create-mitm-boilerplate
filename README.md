@@ -1,6 +1,6 @@
-# Create MITM Starter
+# Create MITM Boilerplate
 
-Create MITM Starter is a boilerplate project that includes:
+Create MITM Boilerplate is a boilerplate project that includes:
 
 - [Next.js](https://nextjs.org/)
 - [Storybook](https://storybook.js.org)
@@ -13,12 +13,12 @@ Create MITM project with no build configuration.
 - [Creating a Project](#creating-a-project) – How to create a project.
 
 Create MITM Project works on macOS, Windows, and Linux.<br>
-If something doesn’t work, please [file an issue](https://github.com/70-7h3-m00n/create-mitm-starter/issues/new).<br>
+If something doesn’t work, please [file an issue](https://github.com/70-7h3-m00n/create-mitm-boilerplate/issues/new).<br>
 
 ## Quick Overview
 
 ```sh
-npx create-mitm-starter my-app
+npx create-mitm-boilerplate my-app
 npm start
 ```
 
@@ -40,12 +40,12 @@ You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) 
 
 To create a new project, you may choose one of the following methods:
 
-_This boilerplate uses _**Yarn**_ Package Manager under hood, so using _**NPM is not recommended.**\_\_
+_This boilerplate uses _**Yarn**_ Package Manager under the hood, that's why using **NPM is not recommended.**_
 
 ### npx
 
 ```sh
-npx create-react-app my-app
+npx create-mitm-boilerplate my-app
 ```
 
 _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) is a package runner tool that comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_
@@ -53,7 +53,7 @@ _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7
 ### Yarn
 
 ```sh
-yarn create react-app my-app
+yarn create mitm-boilerplate my-app
 ```
 
 _[`yarn create <starter-kit-package>`](https://yarnpkg.com/lang/en/docs/cli/create/) is available in Yarn 0.25+_
@@ -122,4 +122,4 @@ Builds the app for production to the `.next` folder.
 
 ## License
 
-Create MITM Starter is open source software [licensed as Apache version 2.0](https://github.com/facebook/create-mitm-starter/blob/main/LICENSE).
+Create MITM Starter is open source software [licensed as Apache version 2.0](https://github.com/facebook/create-mitm-boilerplate/LICENSE).
