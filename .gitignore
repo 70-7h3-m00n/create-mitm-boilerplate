@@ -34,6 +34,9 @@ yarn-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 
+#vscode settings
+.vscode
+
 #build & error log files
 yarn-error.log*
 tsconfig.tsbuildinfo
