@@ -3,10 +3,10 @@
 Create MITM Starter is a boilerplate project that includes:
 
 - [Next.js](https://nextjs.org/)
-- [Storybook](https://nextjs.org/)
-- [Styled-components](https://nextjs.org/)
-- [Airbnb-linting](https://nextjs.org/)
-- [Conventional-commits-linting](https://nextjs.org/)
+- [Storybook](https://storybook.js.org)
+- [Styled-components](https://styled-components.com/)
+- [Airbnb-linting](https://github.com/airbnb/javascript?ysclid=la5qe13art383667179)
+- [Conventional-commits-linting](https://www.conventionalcommits.org/en/)
 
 Create MITM project with no build configuration.
 
@@ -66,20 +66,38 @@ my-app
 ├── README.md
 ├── node_modules
 ├── package.json
+├── yarn.lock
+├── tsconfig.json
 ├── .gitignore
+├── next.config.js
+├── commitlint.config.js
+├── LICENSE
+├── .prettierrc
+├── .prettierignore
+├── .lintstagedrc.js
+├── .eslintrc.js
+├── .eslintignore
+├── components
 ├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
-└── src
-    ├── App.css
-    ├── App.js
-    ├── App.test.js
-    ├── index.css
-    ├── index.js
-    ├── logo.svg
-    └── serviceWorker.js
-    └── setupTests.js
+│   └── favicon.ico
+├── app
+|   ├── globals.css
+|   ├── Home.stories.tsx
+|   ├── layout.tsx
+|   └── page.tsx
+├── pages
+|   └── api
+|       └── hello.ts
+├── .storybook
+|   ├── main.js
+|   ├── preview.js
+|   ├── layout.tsx
+|   └── page.tsx
+└── .husky
+    ├── commit-msg.sh
+    ├── common.sh
+    ├── pre-commit
+    └── pre-psuh
 ```
 
 Inside the newly created project, you can run some built-in commands:
