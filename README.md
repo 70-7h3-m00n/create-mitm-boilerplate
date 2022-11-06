@@ -19,6 +19,7 @@ If something doesn’t work, please [file an issue](https://github.com/70-7h3-m0
 
 ```sh
 npx create-mitm-boilerplate my-app
+cd my-app
 npm start
 ```
 
@@ -58,7 +59,6 @@ yarn create mitm-boilerplate my-app
 
 _[`yarn create <starter-kit-package>`](https://yarnpkg.com/lang/en/docs/cli/create/) is available in Yarn 0.25+_
 
-It will create a directory called `my-app` inside the current folder.<br>
 Inside that directory, it will generate the initial project structure and install the transitive dependencies:
 
 ```
@@ -98,6 +98,13 @@ my-app
     ├── common.sh
     ├── pre-commit
     └── pre-psuh
+```
+
+No configuration or complicated folder structures, only the files you need to build your app.<br>
+Once the installation is done, you can open your project folder:
+
+```sh
+cd my-app
 ```
 
 Inside the newly created project, you can run some built-in commands:
